@@ -78,6 +78,8 @@
 </BrowserRouter>
 ```
 
+APIkey '587b4939eff6beacf289edab5b96b06a'
+
 ## Как это работает
 
 ![How it works](./assets/how-it-works.png)
