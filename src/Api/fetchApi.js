@@ -21,6 +21,7 @@ export const fetchMovieDetails = async movieId => {
   );
   return response;
 };
+
 export const fetchMovieСast = async movieId => {
   const response = await axios.get(
     `https://api.themoviedb.org/3/movie/${movieId}/credits`,
