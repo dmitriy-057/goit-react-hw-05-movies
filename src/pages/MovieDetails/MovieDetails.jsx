@@ -20,7 +20,6 @@ export default function MovieDetails() {
     <div>
     <BackPage to={backLinkHref}>Go Back</BackPage>
     <MovieDetailesInfo dataMovie={dataMovie} />
-
         <Outlet />
     </div>
     

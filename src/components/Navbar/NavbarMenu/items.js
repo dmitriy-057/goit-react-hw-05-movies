@@ -14,7 +14,7 @@ import { nanoid } from "nanoid";
     {
         id: nanoid(),
         to: "/movies/:movieId",
-        text: "Movie Details",
+        // text: "Movie Details",
     },
 ]
 export default items;
