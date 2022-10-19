@@ -13,7 +13,7 @@ import NotFoundPage from "pages/NotFoundPage/NotFoundPage";
 export const App = () => {
   return (
     <div>
-      <Navbar/>
+      <Navbar path="/" element={<Navbar />} />
       <Routes>
         <Route path="/" index element={<Home />} />
         <Route path="/movies" element={<Movies />} />

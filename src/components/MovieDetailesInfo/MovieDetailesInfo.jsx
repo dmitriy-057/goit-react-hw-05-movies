@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
   export  const MovieDetailesInfo = ({
     dataMovie: { title, overview, genres = [], poster_path = '', vote_average },
@@ -25,8 +26,19 @@
           <p>{overview}</p>
           <p>Genres</p>
           <p>{genresData}</p>
+        <div>
+        <ul>
+            <li>
+            <Link to="cast"> Cast </Link> 
+            </li>
+            <li>
+            <Link to="reviews"> Reviews </Link>
+            </li>
+          </ul>
+        </div>
+ 
+      
         </div>
       </div>
     );
   };
-//   export default MovieDetailesInfo;
